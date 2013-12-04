@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD3CF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hospital_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textColorHighlight="#ffffff" />
+
+    <TextView
+        android:id="@+id/hospital_specialist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hospital_name"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hospital_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hospital_specialist"
+        android:autoLink="map"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hospital_address"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hiphen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hospital_address"
+        android:layout_toRightOf="@id/location"
+        android:text="@string/hiphen"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/zipcode"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hospital_address"
+        android:layout_toRightOf="@id/hiphen"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hospital_phone2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/location"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hospital_phone2" >
+
+        <TextView
+            android:id="@+id/call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="callHospital"
+            android:padding="5dp"
+            android:text="@string/call"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFE8BA"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/map"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="showMap"
+            android:padding="5dp"
+            android:text="@string/map"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFE8BA"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

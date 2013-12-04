@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hospital Finder</string>
+    <string name="location_refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="area">Area</string>
+    <string name="zipCodeOk">OK</string>
+    <string name="hiphen">-</string>
+    <string name="call">Call</string>
+    <string name="map">Show Map</string>
+
+    <string-array name="area_array">
+        <item>Abhiramapuram</item>
+        <item>Adambakkam</item>
+        <item>Adyar</item>
+        <item>Alandur</item>
+        <item>Alwarpet</item>
+        <item>Alwarthirunagar</item>
+        <item>Ambattur</item>
+        <item>Ambattur Industrial Estate</item>
+        <item>Aminjikarai</item>
+        <item>Anakaputhur</item>
+        <item>Anna Nagar</item>
+        <item>Anna Nagar East</item>
+        <item>Anna Nagar West</item>
+        <item>Arumbakkam</item>
+        <item>Ashok nagar</item>
+        <item>Athipattu</item>
+        <item>Avadi</item>
+        <item>Avadi Camp</item>
+        <item>Avadi Crp</item>
+        <item>Avadi IAF</item>
+        <item>Ayanambakkam</item>
+        <item>Ayanavaram</item>
+        <item>Besant Nagar</item>
+        <item>Broadway</item>
+        <item>C.I.T nagar</item>
+        <item>Chennai H O</item>
+        <item>Chetpet HO</item>
+        <item>Chindatripet</item>
+        <item>Chitalapakkam</item>
+        <item>Choolai</item>
+        <item>Choolaimedu</item>
+        <item>Chrompet</item>
+        <item>Commander In Chief Road</item>
+        <item>Egmore</item>
+        <item>EKKADUTHANGAL</item>
+        <item>Ennore</item>
+        <item>Erukkancheri</item>
+        <item>Ethiraj Salai</item>
+        <item>Flowers Road</item>
+        <item>George Town</item>
+        <item>Gopalapuram</item>
+        <item>Gowrivakkam</item>
+        <item>Greams road</item>
+        <item>Guduvanchery</item>
+        <item>guindy</item>
+        <item>Gummidipundi</item>
+        <item>Hasthinaburam</item>
+        <item>ICF</item>
+        <item>IIT</item>
+        <item>Injambakkam</item>
+        <item>Iyapanthangal</item>
+        <item>Jafferkhanpet</item>
+        <item>Jawahar nagar</item>
+        <item>K K Nagar</item>
+        <item>K K Nagar West</item>
+        <item>Kadaperi</item>
+        <item>Kaladipet</item>
+        <item>Kamaraj Nagar</item>
+        <item>Kandanchavadi</item>
+        <item>Karapakkam</item>
+        <item>Karayanchavadi</item>
+        <item>Kattupakkam</item>
+        <item>Kilkattalai</item>
+        <item>Kilpauk</item>
+        <item>Kodambakkam</item>
+        <item>Kodungaiyur</item>
+        <item>Korattur</item>
+        <item>Kotturpuram</item>
+        <item>Kovilambakkam</item>
+        <item>Koyambedu</item>
+        <item>Kunrathur</item>
+        <item>Madhavaram</item>
+        <item>Madhavaram Milk Colony</item>
+        <item>Madipakkam</item>
+        <item>Maduravoyal</item>
+        <item>Manali</item>
+        <item>Manali New Town</item>
+        <item>Mandavelli</item>
+        <item>Mangadu</item>
+        <item>mannady</item>
+        <item>Mathur</item>
+        <item>Matthur Manali</item>
+        <item>Meenambakkam</item>
+        <item>Minjur</item>
+        <item>mint</item>
+        <item>Mogappair</item>
+        <item>Mogappair east</item>
+        <item>Mogappair West</item>
+        <item>Mount Road</item>
+        <item>mudichur</item>
+        <item>muthialpet</item>
+        <item>Mylapore</item>
+        <item>Nandambakkam</item>
+        <item>Nandanam</item>
+        <item>Nanganallur</item>
+        <item>Nazarethpettai</item>
+        <item>Neelankarai-Palavakkam</item>
+        <item>Noombal</item>
+        <item>Nungambakkam</item>
+        <item>Old Pallavaram</item>
+        <item>Old Perungalathur</item>
+        <item>Old Washermanpet</item>
+        <item>Padappai</item>
+        <item>Padi</item>
+        <item>Pallavaram</item>
+        <item>Pammal</item>
+        <item>Park Town</item>
+        <item>Parrys</item>
+        <item>Pattabiram</item>
+        <item>Pazhavanthangal</item>
+        <item>Perambur</item>
+        <item>Perambur Barracks Road </item>
+        <item>Periyamedu</item>
+        <item>Perungalathur</item>
+        <item>Perungudi</item>
+        <item>Polichalur</item>
+        <item>Ponneri</item>
+        <item>Ponniamman Medu</item>
+        <item>Poonamallee</item>
+        <item>Porur</item>
+        <item>Pozhal</item>
+        <item>Pudupet</item>
+        <item>Pudur Ambattur</item>
+        <item>Purasavakkam</item>
+        <item>Railway Car Shed Avadi</item>
+        <item>Raja Annamalai Puram</item>
+        <item>Rajakilpakkam</item>
+        <item>Ramapuram</item>
+        <item>Red Hills</item>
+        <item>Royapettah</item>
+        <item>Royapuram</item>
+        <item>Saidapet</item>
+        <item>Saligramam</item>
+        <item>Santhome</item>
+        <item>Santhome</item>
+        <item>Sathyamurthi Nagar</item>
+        <item>Selaiyur</item>
+        <item>seven wells</item>
+        <item>Shenoy Nagar</item>
+        <item>Sholavaram</item>
+        <item>Sholinganallur</item>
+        <item>Sowcarpet</item>
+        <item>Srinivasa Nagar</item>
+        <item>Srisakthi Nagar Annanur</item>
+        <item>T Nagar</item>
+        <item>Tambaram</item>
+        <item>Tambaram East</item>
+        <item>Tambaram Sanatorium</item>
+        <item>Tambaram West</item>
+        <item>Teynampet</item>
+        <item>Tharamani</item>
+        <item>Thirumalisai</item>
+        <item>Thirumullaivoyal</item>
+        <item>Thirunindravur</item>
+        <item>Thiruvanmiyur</item>
+        <item>Thiruverkadu</item>
+        <item>Thoraipakkam</item>
+        <item>Tiruvottiyur</item>
+        <item>Tondiarpet</item>
+        <item>Triplicane</item>
+        <item>Vadapalani</item>
+        <item>Valasaravakkam</item>
+        <item>Vandalur</item>
+        <item>Velacheri</item>
+        <item>Vepery</item>
+        <item>Vettuvankeni</item>
+        <item>Villivakkam</item>
+        <item>Virugambakkam</item>
+        <item>Vyasarpadi</item>
+        <item>Washermanpet</item>
+        <item>West Mambalam</item>
+    </string-array>
+    <string-array name="special_array">
+        <item>Acupuncture</item>
+        <item>Ayurvedic</item>
+        <item>Ambulance Services</item>
+        <item>Baby</item>
+        <item>Cancer</item>
+        <item>Cardiology</item>
+        <item>Child</item>
+        <item>Clinics</item>
+        <item>Cosmetic Surgeons</item>
+        <item>Dental</item>
+        <item>Dentist</item>
+        <item>Dermatologists</item>
+        <item>Diabetic</item>
+        <item>Diagnostic</item>
+        <item>Doctors Surgeon Dental</item>
+        <item>Endocrinologist</item>
+        <item>ENT</item>
+        <item>Eye</item>
+        <item>Eye Specialist</item>
+        <item>Fertility Clinic</item>
+        <item>  General</item>
+        <item>  Gynaecologist </item>
+        <item>Heart</item>
+        <item>Homeo</item>
+        <item> Hospital</item>
+        <item>Kidney</item>
+        <item>Mother and Child</item>
+        <item>  Medical </item>
+        <item>Nephrologists</item>
+        <item>Naturopathy</item>
+        <item>Neurologist</item>
+        <item>Nursing Homes</item>
+        <item>  Liver</item>
+        <item>Ophthalmology</item>
+        <item>ortho</item>
+        <item>Paediatricians</item>
+        <item>Physiotherapy</item>
+        <item>Police</item>
+        <item>Psychiatrists</item>
+        <item>  Piles Doctors</item>
+        <item>Rehabilitation</item>
+        <item>Sex and AIDS</item>
+        <item>Sex</item>
+        <item>siddha</item>
+        <item>Skin</item>
+        <item>Touch Theraphy</item>
+        <item>  Thyroid</item>
+        <item>Unani</item>
+        <item>Urology</item>
+        <item>Veterinary Clinics and Hospitals</item>
+        <item>Women</item>
+</string-array>
+
+</resources>
